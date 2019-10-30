@@ -1,0 +1,73 @@
+    1  cd /home/eneira/
+    2  ls -l
+    3  mkdir repositorio
+    4  cd repositorio/
+    5  mkdir sgf-bk
+    6  ls -l
+    7  exit
+    8  cd /home/eneira/
+    9  ls -l
+   10  cd repositorio/
+   11  ls -l
+   12  cp bin/ sgf-bk/
+   13  cp -r bin/ sgf-bk/
+   14  ls -l
+   15  rm -r bin/
+   16  ls -l
+   17  rm -r bin
+   18  cd sgf-bk/
+   19  ls -l
+   20  cd bin/
+   21  ls -l
+   22  rm README.md 
+   23  ls -l
+   24  cd ..
+   25  git init
+   26  git commit 'primera subida'
+   27  git commit -m 'primera subida'
+   28  git config --global user.email "elvis11z@gmail.com"
+   29  git config --global user.name "elvis11z"
+   30  git commit -m 'primera subida'
+   31  git remote add origin https://github.com/elvis11z/sgf-bk
+   32  git push -u origin master
+   33  git init
+   34  git add .
+   35  git commit -m 'primera subida del archivo'
+   36  git push -u origin master
+   37  git push -u origin 
+   38  git push --set-upstream origin master
+   39  echo "# sgf-bk" >> README.md
+   40  ls -l
+   41  git init
+   42  git add README.md 
+   43  git commit -m "primera subida"
+   44  git remote add origin https://github.com/elvis11z/sgf-bk.git
+   45  git push -u origin master 
+   46  git add .
+   47  git commit -m "primera  version"
+   48  git push -u origin master 
+   49  cat README.md 
+   50  git fetch origin
+   51  cat README.md 
+   52  git fetch origin master
+   53  cat README.md 
+   54  git fetch README.md
+   55  git fetch https://github.com/elvis11z/sgf-bk.git
+   56  cat README.md 
+   57  git fetch https://github.com/elvis11z/sgf-bk.git
+   58  cd bin/
+   59  ls -l
+   60  git fetch origin
+   61  ls -l
+   62  cd ..
+   63  git fetch origin
+   64  cd bin
+   65  ls -l
+   66  cd .. 
+   67  git pull origin master 
+   68  cd bin
+   69  ls -l
+   70  cd ..
+   71  cat README.md 
+   72  history
+   73  history >> git.txt
