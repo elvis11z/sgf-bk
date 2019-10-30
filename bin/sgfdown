@@ -1,0 +1,6 @@
+#!/bin/bash
+#echo descargando BD de SGF .....
+sshpass -p 'operadorlsur' scp operadorlsur@10.32.100.5:/data/sybase/backup/sgf_anti_lsur* /home/soporte/sgfbk/temp
+#echo BD copiada a directorio temp ..... OK
+cp /home/soporte/sgfbk/temp/sgf_anti_lsur_* /home/soporte/sgfbk/
+#echo BD copiada a directorio sgfbk .... OK 

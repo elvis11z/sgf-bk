@@ -1,0 +1,20 @@
+#!/bin/bash
+echo descargando BD de SGF ............
+sshpass -p 'operadorlsur' scp operadorlsur@10.32.100.5:/data/sybase/backup/sgf_anti_lsur* /home/soporte/sgfbk/temp
+echo BD copiada a directorio temp ..... OK
+date +'[  ] DB copiada a directorio temp el %A %d de %B de %Y a las %T'  >> /home/soporte/ftp/sgfbackup.log
+
+cp /home/soporte/sgfbk/temp/sgf_anti_lsur_* /home/soporte/sgfbk/
+echo BD copiada a directorio sgfbk .... OK
+date +'[  ] DB copiada a directorio sgfbk el %A %d de %B de %Y a las %T'  >> /home/soporte/ftp/sgfbackup.log
+
+cd /root/
+./gdrive-linux-x64 upload --parent 1THmlvVuJ6Eajc9ZAtyFIlNldnoDEBEj5 /home/soporte/sgfbk/temp/sgf_anti_lsur_*
+echo BD de SGF en respaldo drive ..... OK
+date +'[  ] DB subida a respaldo SGF en  drive el %A %d de %B de %Y a las %T'  >> /home/soporte/ftp/sgfbackup.log
+
+rm -f /home/soporte/sgfbk/temp/*
+echo barronado temporales ............ OK
+date +'[  ] Borrando temp el %A %d de %B de %Y a las %T'  >> /home/soporte/ftp/sgfbackup.log
+date +'[OK] Backup del SGF realizado con exito el %A %d de %B de %Y a las %T'  >> /home/soporte/ftp/sgfbackup.log
+echo '[Bye]'  >> /home/soporte/ftp/sgfbackup.log

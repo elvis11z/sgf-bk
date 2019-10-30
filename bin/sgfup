@@ -1,0 +1,9 @@
+#!/bin/bash
+#echo subiendo BD de SGF a respaldo drive .....
+cd /root/
+./gdrive-linux-x64 upload --parent 1THmlvVuJ6Eajc9ZAtyFIlNldnoDEBEj5 /home/soporte/sgfbk/temp/sgf_anti_lsur_*
+#echo BD de SGF en respaldo drive ..... OK
+rm -f /home/soporte/sgfbk/temp/*
+#echo barronado temporales ............ OK
+#echo TI LIMA SUR
+

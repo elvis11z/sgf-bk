@@ -1,0 +1,4 @@
+#!/bin/bash
+#echo "esta linea va para lo ultimo del archivo" &date& >> /root/sgfbk.log
+
+date +'[OK] Backup del SGF realizado con exito el %A %d de %B de %Y a las %T'  >> /root/sgfbk.log
