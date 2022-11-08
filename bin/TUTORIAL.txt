@@ -1,0 +1,8 @@
+TUTORIALES GDRIVE Y GO
+
+https://parzibyte.me/blog/2019/07/01/administrar-google-drive-linux-gdrive-comandos/
+https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/
+https://www.youtube.com/watch?v=A1nXTfYAfVs
+https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/#list-contents
+https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-14-04
+https://github.com/prasmussen/gdrive
