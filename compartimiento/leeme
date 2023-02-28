@@ -1,4 +1,12 @@
 leeme 
+
+root@tilsur:/# nano /var/spool/cron/crontabs/root
+
+# m h  dom mon dow   command
+10 13 * * * /usr/local/bin/sgfbk
+
+
+
 tutorial
 https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/
 https://www.youtube.com/watch?v=A1nXTfYAfVs
