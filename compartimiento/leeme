@@ -5,7 +5,7 @@ root@tilsur:/# nano /var/spool/cron/crontabs/root
 # m h  dom mon dow   command
 10 13 * * * /usr/local/bin/sgfbk
 
-
+https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-es
 
 tutorial
 https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/
